@@ -11,6 +11,6 @@ jobs:
         if: runner.os == 'Windows'
         run: echo "C:\Program Files\MATLAB\R2023a\bin"
       - name: Run script
-        uses: matlab-actions/run-command@v2
+        uses: matlab-actions/run-command@v4
         with:
-          command: Script
+          command: test
